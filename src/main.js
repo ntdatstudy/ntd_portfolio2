@@ -3,6 +3,10 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+import "./plugins/antdv";
+import "./plugins/bootstrap";
+import "./plugins/vue-meta";
+
 Vue.config.productionTip = false
 
 new Vue({
